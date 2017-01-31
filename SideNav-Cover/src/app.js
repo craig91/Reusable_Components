@@ -13,8 +13,10 @@ ReactDOM.render((
    <Route path="/" component={Root}>
      <IndexRoute component={Splash} />
        <Route path="nav" component={Nav} />
+      
    </Route>
   </Router>
-),document.getElementById('root'));
+),
+document.getElementById('root'));
 
 
