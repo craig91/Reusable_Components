@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=320, initial-scale=1">
         <title>Top Nav</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="scripts.js"></script>
     </head>
     <body>
@@ -19,10 +20,13 @@
 
 <h2></h2>
 
-<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></center>
+
+
+        <center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></center>
+
 
 <div id="id01" class="modal">
-  
+
   <form class="modal-content animate" action="action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -35,7 +39,7 @@
 
       <label><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
-        
+
       <button type="submit">Login</button>
       <input type="checkbox" checked="checked"> Remember me
     </div>
