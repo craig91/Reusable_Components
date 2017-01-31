@@ -1,5 +1,7 @@
 html{
-
+  height: 2000px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .sidenav{
@@ -22,7 +24,7 @@ html{
     color: #818181;
     display: block;
     transition: 0.3s;
-    
+
 }
 
 .sidenav a:hover, .offcanvas a:focus{
